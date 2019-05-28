@@ -1,8 +1,11 @@
 target/
+nbproject/
 .settings/
 .project
 .classpath
 .DS_Store
+*.xml
+*.mf
 
 *.class
 *.zip
@@ -12,3 +15,5 @@ target/
 Thumbs.db
 build.sh
 log/
+/src/nbproject/private/
+/nbproject/private/
