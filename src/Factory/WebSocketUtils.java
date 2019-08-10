@@ -25,7 +25,7 @@ class WebSocketUtils {
         response += "Upgrade: websocket\r\n";
         response += "Connection: Upgrade\r\n";
         response += "Sec-WebSocket-Accept: " + key + "\r\n";
-        response += "Sec-WebSocket-Protocol: Syudal\r\n\r\n";
+        response += "Sec-WebSocket-Protocol: "+Constant.Protocol+"\r\n\r\n";
         return new WebSocketHandShakeResponse(response);
     }
     
