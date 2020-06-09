@@ -5,6 +5,7 @@ WebSocket and SSL implementers to be used in the form of IoFilter in Apache Mina
 
 Apache Mina에서 IoFilter형태로 사용될 WebSocket와 SSL 구현체 입니다.
 
+#
 
 This plug-in is implemented to provide Web Sockets functionality to Apache Mina, and WebSocket and SSL code are written to comply with rfc6455.
 
@@ -12,7 +13,12 @@ This plug-in is implemented to provide Web Sockets functionality to Apache Mina,
 
 http://tools.ietf.org/html/rfc6455
 
+https://mina.apache.org/mina-project/userguide/ch11-ssl-filter/ch11-ssl-filter.html
+
+#
+
 Examples can be found in the Example folder in Repo.
+
 예제는 레포의 Example폴더에서 볼 수 있습니다.
 
 WebSocket Example
