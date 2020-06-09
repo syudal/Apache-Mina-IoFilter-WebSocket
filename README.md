@@ -41,7 +41,7 @@ WebSocket Example
     }
 ```
 
-SSL Exaple
+SSL Example
 --------------
 ```
     SslConfigurationFactory sslConfig = new SslConfigurationFactory();
