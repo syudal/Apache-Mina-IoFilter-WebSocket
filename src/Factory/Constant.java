@@ -10,5 +10,11 @@ package Factory;
  * @author Syudal
  */
 public class Constant {
+    public static boolean UseSSL = true;
+    public static String SSLLocation = "res/mykeystore.jks";    
+    public static String SSLPassword = "sslkey";  
+      
     public static String Protocol = "Syudal";
+    
+    public static int Port = 81;
 }
